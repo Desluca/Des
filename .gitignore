@@ -1,6 +1,6 @@
 # Escludi file con dati sensibili
 .env
-.envexample
+.env.example
 README.txt
 # Escludi l'ambiente virtuale
 venv/
@@ -9,3 +9,4 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+.gitignore
