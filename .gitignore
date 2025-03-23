@@ -1,7 +1,7 @@
 # Escludi file con dati sensibili
 .env
 .envexample
-
+README.txt
 # Escludi l'ambiente virtuale
 venv/
 
