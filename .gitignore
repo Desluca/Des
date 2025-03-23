@@ -1,0 +1,11 @@
+# Escludi file con dati sensibili
+.env
+.envexample
+
+# Escludi l'ambiente virtuale
+venv/
+
+# Escludi file generati da Python
+__pycache__/
+*.pyc
+*.pyo
