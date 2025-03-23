@@ -17,9 +17,10 @@ if not TELEGRAM_BOT_TOKEN or not OPENAI_API_KEY:
 # Inizializza l'agente AI
 agent = AI_Agent(OPENAI_API_KEY)
 
-# Inizializza il bot di Telegram con supporto audio
+# Inizializza il bot di Telegram con supporto TTS
 telegram_bot = TelegramBot(TELEGRAM_BOT_TOKEN, agent, OPENAI_API_KEY)
 
 # Avvia il bot
 if __name__ == "__main__":
     telegram_bot.run()
+    
